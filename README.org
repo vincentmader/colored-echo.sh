@@ -15,7 +15,7 @@ Running a first test:
 #+begin_src shell
 make test
 #+end_src
-This will print "Hello, world!" in green.
+$\to$ This will print "Hello, world!" in green.
 
 Printing user-defined text:
 #+begin_src shell
