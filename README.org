@@ -11,11 +11,10 @@ cprint "Define your text here!" "red"
 
 \\
 *** Usage via `make`
-Running a first test:
+Running a first test: $\to$ This will print "Hello, world!" in green.
 #+begin_src shell
 make test
 #+end_src
-$\to$ This will print "Hello, world!" in green.
 
 Printing user-defined text:
 #+begin_src shell
