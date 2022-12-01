@@ -11,7 +11,7 @@ cprint "Define your text here!" "red"
 
 \\
 *** Usage via `make`
-Running a first test: $\to$ This will print "Hello, world!" in green.
+Running a first test: (This will print "Hello, world!" in green.)
 #+begin_src shell
 make test
 #+end_src
