@@ -1,29 +1,29 @@
 #+title: UNIX `echo` command, but with colors!
 
-* Usage
-1. Using `make`
+*** Usage via `make`
+Running a first test:
+#+begin_src shell
+make test
+#+end_src
+This will print "Hello, world!" in green.
 
-   _For a first test_:
-   #+begin_src shell
-   make test
-   #+end_src
-   This will print "Hello, world!" in green.
-
-   _For printing user-defined text_:
+Printing user-defined text:
 #+begin_src shell
 msg="Define your text here!"
 color="red"
 make cprint msg="$msg" color="$color"
 #+end_src
 
-2. Using the binary `./bin/cprint.sh` (e.g. after adding to `$PATH`)
+*** Usage via execution of the binary `./bin/cprint`
+Though not strictly required, you might consider adding the binary file to your `$PATH`.
 
-   #+begin_src shell
-   cd ./bin
-   cprint "Define your text here!" "red"
-   #+end_src
+Otherwise, run the following from your shell:
+#+begin_src shell
+cd ./bin
+cprint "Define your text here!" "red"
+#+end_src
 
-_Possible color values_:
+*** Possible color values
 - black
 - red
 - green
