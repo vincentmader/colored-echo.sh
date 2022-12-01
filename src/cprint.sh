@@ -32,7 +32,7 @@ elif [[ "$color" == "yellow" ]]; then
     color="\033[1;33m"
 elif [[ "$color" == "lightblue" ]]; then
     color="\033[1;34m"
-elif [[ "$color" == "lightcyan" ]]; then
+elif [[ "$color" == "lightpurple" ]]; then
     color="\033[1;35m"
 elif [[ "$color" == "lightcyan" ]]; then
     color="\033[1;36m"
