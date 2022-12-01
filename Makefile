@@ -1,4 +1,4 @@
 cprint:
-	./src/cprint.sh "$(msg)" "$(color)"
+	cd ./bin/ && ./cprint.sh "$(msg)" "$(color)"
 test:
-	make msg="Hello, world" color="green"
+	make cprint msg="Hello, world!" color="green"
