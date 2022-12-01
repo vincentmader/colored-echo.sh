@@ -14,6 +14,8 @@ color="red"
 make cprint msg="$msg" color="$color"
 #+end_src
 
+
+
 *** Usage via execution of the binary `./bin/cprint`
 Though not strictly required, you might consider adding the binary file to your `$PATH`.
 
